@@ -1,0 +1,22 @@
+    h1 { background-color: aqua; }
+    h2 { background-color: yellow; }
+    /* 선택자 . : class를 의미 */
+    .red { background-color: red; }
+    .green { background-color: green; }
+    .yellow { background-color: yellow; }
+    
+    /* 선택자 # : id를 의미 */
+    #yellow { background-color: yellow; }
+    
+    h3 { background-color: green; }
+    p { background-color: green; }
+    /* 적용대상 동일하고, 동일속성에 다른 값을 적용시
+       가중치가 동일하면 나중에 선언된 스타일 적용 */
+    p { background-color: blueviolet; }
+    
+    /* 스타일 적용 우선순위 : id, class, 태그(tag) */
+    #violet { background-color: violet;  }
+    
+    div > p { background-color: coral; }
+    
+    p.green { background-color: greenyellow; }
